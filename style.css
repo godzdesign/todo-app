@@ -1,25 +1,65 @@
 * {
  margin: 0;
  padding: 0;
- box-sizing: border-box;   
+ box-sizing: border-box;
+ font-family: "Century Gothic", sans-serif;
 }
 
 body {
-  font-family: sans-serif;
   padding: 20px;
+  background-color: #DED3C4;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 38px;
+  position: relative;
+  color: #555879;
 }
 
 input {
   padding: 8px;
-  width: 200px;
+  width: 270px;
+  height: 50px;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #F4EBD3;
+  box-shadow: 0 3px 0px #CFC4B4;
+  color: #555879;
 }
 
 button {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
   padding: 8px 12px;
   margin-left: 10px;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  background-color: #F4EBD3;
+  box-shadow: 0 3px 0px #CFC4B4;
+  color: #555879;
+  font-weight: 500;
+}
+
+button:active {
+  background-color: #CFC4B4;
+  font-weight: bold;
 }
 
 li {
   margin-top: 10px;
   cursor: pointer;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  list-style: circle;
+  font-size: 20px;
 }
+
