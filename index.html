@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo App</title>
     <link rel="stylesheet" href="style.css">
+    <link href="google-calendar.css" rel="stylesheet">
+    <script src="google-calendar.js" defer ></script>
 </head>
 <body>
 
@@ -12,8 +14,9 @@
 
     <input id="taskInput" placeholder="New Task..."/>
     <button id="myBtn" onclick="addTask()">+</button>
+    <button id="calendarbtn" onclick="calendarOpen()">Calendar</button>
     <ul id="taskList"></ul>
-
+    <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FBerlin&showPrint=0&src=ZW4uZ2VybWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%230b8043"   frameborder="0" scrolling="no"></iframe>
 
 
     <script src="renderer.js"></script>

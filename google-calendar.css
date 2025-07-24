@@ -1,0 +1,15 @@
+#calendar {
+    width: 600px;
+        height: 400px;
+        position: fixed;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -40%);
+        border-radius: 10px;
+        display: none;
+}
+
+
+iframe{
+   filter: invert(.9) saturate(0.5) ;
+}

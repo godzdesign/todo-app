@@ -59,3 +59,4 @@ function removeTask(liElement) {
 
     localStorage.setItem("tasks", JSON.stringify(tasks));
 }
+

@@ -31,7 +31,7 @@ input {
   color: #555879;
 }
 
-button {
+#myBtn {
   height: 40px;
   width: 40px;
   font-size: 20px;
@@ -48,10 +48,37 @@ button {
   font-weight: 500;
 }
 
-button:active {
+#myBtn:active {
   background-color: #CFC4B4;
   font-weight: bold;
 }
+
+#calendarbtn {
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 520px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background-color: #CFC4B4;
+  box-shadow: 0 3px 0px #CFC4B4;
+  color: #555879;
+  font-weight: 500;
+}
+
+#calendarbtn.active {
+  background-color: #F4EBD3;
+  font-weight: bold;
+}
+
+#calendarbtn:active {
+  background-color: #F4EBD3;
+  font-weight: bold;
+}
+
 
 li {
   margin-top: 10px;
@@ -59,7 +86,13 @@ li {
   position: relative;
   top: 30px;
   left: 30px;
-  list-style: circle;
-  font-size: 20px;
+  font-size: 23px;
+  text-align: center;
+  background-color: #F4EBD3;
+  width: fit-content;
+  border: 5px solid #F4EBD3;
+  border-radius: 10px;
+  color: #555879;
+  box-shadow: 0 3px 0px #CFC4B4;
 }
 
