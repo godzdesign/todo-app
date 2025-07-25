@@ -57,9 +57,9 @@ input {
   height: 40px;
   width: 100px;
   font-size: 20px;
-  position: relative;
-  top: 20px;
-  left: 520px;
+  position: fixed;
+  top: 90px;
+  left: 880px;
   text-align: center;
   border-radius: 10px;
   border: none;

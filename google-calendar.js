@@ -1,5 +1,3 @@
-const { Calendar } = require("vanilla-calendar-pro");
-
 //calendar btn
 function calendarOpen() {
    const button = document.getElementById("calendarbtn");

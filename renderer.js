@@ -1,5 +1,6 @@
 const taskInput = document.getElementById("taskInput");
 const taskList = document.getElementById("taskList");
+const dateInput = document.getElementById("dateInput");
 
 window.onload = () => {
     const savedTasks = JSON.parse(localStorage.getItem("tasks")) || [];
